@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ipnac
+    url: jdbc:mysql://localhost:3306/db_order
+    password: ipnac
+  jpa:
+    properties:
+      hibernate:
+        format_sql: 'true'
+        show_sql: 'true'
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: none
